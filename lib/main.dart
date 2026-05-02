@@ -11,9 +11,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-              'https://png.pngtree.com/thumb_back/fh260/background/20240916/pngtree-close-up-of-a-radiant-ruby-gemstone-precious-red-glimpse-detailed-image_16221813.jpg',
-            ),
+            image: AssetImage('images/ametista.png'),
           ),
         ),
       ),
